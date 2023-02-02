@@ -54,8 +54,10 @@ tia = 1972
 tio_nasc = 1967
 tia_nasc = 1972
 
-decada_tio = tio_nasc // 10 * 10
-decada_tia = tia_nasc // 10 * 10
+decada_tio = tio_nasc // 10
+decada_tia = tia_nasc // 10 
+
+print(decada_tio == decada_tia)
 
 if decada_tio == decada_tia:
     print("Eles nasceram na mesma década")
